@@ -153,4 +153,73 @@ h1{
     transition: 0.3s;
 }
 
-/* -------------------------------------------------ABOUT------------------------------------------------- */
+/* -------------------------------------------------PROJECTS------------------------------------------------- */
+.projects{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+}
+.projects h2{
+    font-size: 3rem;
+}
+.projects-links{
+    width: 85vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projects-card {
+    width: 40vw;
+    height: 40vh;
+}
+.projects-card p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.projects-card img{
+    width: 30vw;
+    height: 40vh;
+}
+
+/* -------------------------------------------------RESUME------------------------------------------------- */
+.resume{
+    width: 100vw;
+    height: 60vh;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FF;
+}
+.resume h2 {
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+}
+.resume-cards{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.resume-card {
+    width: 15vw;
+    height: 30vh;
+    padding: 1rem;
+    border: 3px solid var(--color-font-1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+.resume-card i{
+    font-size: 1.5rem;
+}
