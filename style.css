@@ -219,7 +219,60 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 0.7rem;
+    transition: 0.3s;
 }
 .resume-card i{
     font-size: 1.5rem;
+}
+.resume-card:hover{
+    transform: scale(1.2);
+    border-color: var(--font-bold);
+    transition: 0.3s;
+    box-shadow: 2px 20px 100px 2px rgba(0, 0, 0, 0.452);
+}
+
+
+/* -------------------------------------------------CONTACT------------------------------------------------- */
+.contact{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.contact-left a{
+    color: black;
+}
+.contact-left a:hover{
+    color: var(--font-bold);
+}
+.contact-left h2{
+    font-size: 3rem;
+}
+.contact-left h3{
+    font-size: 1.5rem;
+    color: #5d5e64;
+    letter-spacing: 0.1rem;
+}
+.contact-links{
+width: 20%;
+display: flex;
+gap: 4rem;
+}
+.contact-links a{
+    transition: 0.3s;
+}
+.contact-links a:hover{
+    transform: scale(1.2);
+    transition: 0.3;
+}
+.contact-links i{
+    font-size: 3.5rem;
+    color: var(--font-bold);
 }
