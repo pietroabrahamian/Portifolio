@@ -15,7 +15,6 @@ a {
     text-decoration: none;
 }
 html {
-    max-width: 1920px;
     height: 100vh;
     background-color: var(--background-color);
 }
@@ -99,9 +98,9 @@ h1{
 
 }
 .scroll-down{
-    position: absolute;
-    bottom: 8rem;
-    right: 15rem;
+    position: relative;
+    bottom: -3vh;
+    right: -11.1vw;
     transform: rotate(90deg);
 }
 
@@ -177,13 +176,19 @@ h1{
     width: 40vw;
     height: 40vh;
 }
-.projects-card p{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
 .projects-card img{
     width: 30vw;
     height: 40vh;
+    transition: 0.3s;
+}
+.projects-card img:hover{
+    transform: scale(0.99);
+    transition: 0.3s;
+    box-shadow: 2px 20px 100px 1px rgba(0, 0, 0, 0.452);
+}
+.projects-card p{
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* -------------------------------------------------RESUME------------------------------------------------- */
@@ -275,4 +280,40 @@ gap: 4rem;
 .contact-links i{
     font-size: 3.5rem;
     color: var(--font-bold);
+}
+
+
+
+
+
+
+@media (max-width: 1920px) {
+    h1{
+        font-size: 3rem;
+    }
+    .scroll-down{
+        bottom: 1vh;
+    }
+
+
+    .bar{
+        height: 30vh;
+        bottom: -2.4vh;
+    }
+    .about-me-text a{
+        width: 10vw;
+    }
+
+
+    .projects-card img{
+        width: 40vw;
+    }
+
+
+    .resume-card{
+        width: 17vw;
+    }
+    .resume-card h3{
+        font-size: 1.3rem;
+    }
 }
