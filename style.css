@@ -16,6 +16,7 @@ a {
 }
 html {
     height: 100vh;
+    overflow-x: hidden;
     background-color: var(--background-color);
 }
 
@@ -316,4 +317,47 @@ gap: 4rem;
     .resume-card h3{
         font-size: 1.3rem;
     }
+}
+
+@media (max-width:1366px){
+    h1{
+        font-size: 3rem;
+    }
+    .inicial-texts button{
+        width: 10vw;
+    }
+    .inicial-img img{
+        width: 18vw;
+    }
+    .scroll-down{
+        bottom: 5.4vh;
+    }
+
+    .about-me{
+        height: 70vh;
+    }
+    .bar {
+        height: 52vh;
+        right: -11vw;
+    }
+    .about-me-text a{
+        width: 12vw;
+        font-size: 100%;
+    }
+    .projects{
+        height: 80vh;
+    }
+
+    .resume{
+        height: 80vh;
+        gap: 5rem;
+    }
+    .resume-cards{
+        gap: 4rem;
+    }
+    .resume-card{
+        width: 25vw;
+        height: 40vh;
+    }
+
 }
